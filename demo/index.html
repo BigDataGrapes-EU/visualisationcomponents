@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>bar-chart demo</title>
+    <title>Visualisation-components demo</title>
 
     <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
 
@@ -14,6 +14,8 @@
     </script>
 
     <script type="module" src="../bar-chart.js"></script>
+    <script type="module" src="../histogram.js"></script>
+    <script type="module" src="../radar-chart.js"></script>
 
     <custom-style>
       <style is="custom-style" include="demo-pages-shared-styles">
@@ -22,12 +24,25 @@
   </head>
   <body>
     <div class="vertical-section-container centered">
-      <h3>Basic bar-chart demo</h3>
+      <h3>Visualisation-components demo</h3>
       <demo-snippet>
         <template>
-          <bar-chart></bar-chart>
+          <vis-barchart data="[6, 9, 3, 5, 2, 3]"></vis-barchart>
         </template>
       </demo-snippet>
+
+      <demo-snippet>
+        <template>
+          <vis-histogram data="[3, 6, 8, 9, 7, 4]"></vis-histogram>
+        </template>
+      </demo-snippet>
+
+      <demo-snippet>
+        <template>
+          <vis-radar data="[26, 32, 51, 32]"></vis-radar>
+        </template>
+      </demo-snippet>
+
     </div>
   </body>
 </html>
