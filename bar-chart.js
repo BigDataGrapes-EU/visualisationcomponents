@@ -73,7 +73,7 @@ class BarChart extends PolymerElement {
       },
       subtitle: {
         type: String,
-        value: 'A reusable bar-chart component',
+        value: 'A reusable visualisation component',
       },
       data: {
         type: Array,

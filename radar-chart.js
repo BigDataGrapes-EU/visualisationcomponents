@@ -73,7 +73,7 @@ class Radar extends PolymerElement {
       },
       subtitle: {
         type: String,
-        value: 'A reusable radar chart component',
+        value: 'A reusable visualisation component',
       },
       data: {
         type: Array,
@@ -103,7 +103,6 @@ class Radar extends PolymerElement {
       }
     });
   }
-
 }
 
 window.customElements.define('vis-radar', Radar);
