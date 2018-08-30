@@ -69,7 +69,7 @@ class Histogram extends PolymerElement {
       },
       title: {
         type: String,
-        value: 'This is a simple histogram',
+        value: 'This is a histogram',
       },
       subtitle: {
         type: String,

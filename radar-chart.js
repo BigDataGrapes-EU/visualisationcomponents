@@ -69,7 +69,7 @@ class Radar extends PolymerElement {
       },
       title: {
         type: String,
-        value: 'This is a simple radar chart',
+        value: 'This is a radar chart',
       },
       subtitle: {
         type: String,

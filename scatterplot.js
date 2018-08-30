@@ -69,7 +69,7 @@ class Scatter extends PolymerElement {
       },
       title: {
         type: String,
-        value: 'This is a simple scatter plot',
+        value: 'This is a scatter plot',
       },
       subtitle: {
         type: String,

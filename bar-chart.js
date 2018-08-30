@@ -69,7 +69,7 @@ class BarChart extends PolymerElement {
       },
       title: {
         type: String,
-        value: 'This is a simple bar-chart',
+        value: 'This is a bar-chart',
       },
       subtitle: {
         type: String,
