@@ -1,6 +1,4 @@
-# \<bar-chart\>
-
-A barchart visualisation
+# \<visualisation-components\>
 
 ## Install the Polymer-CLI
 
