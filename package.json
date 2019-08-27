@@ -1,5 +1,6 @@
 {
-  "name": "bar-chart",
+  "name": "visualisationcomponents",
+  "version": "0.0.0",
   "description": "A barchart visualisation",
   "main": "bar-chart.js",
   "dependencies": {
